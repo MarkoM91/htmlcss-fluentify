@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav{
+  height: 100px;
+  background-color: #0d325a;
+}
+.container{
+  width: 70vw;
+  margin: auto;
+  color: white;
+  
+}
