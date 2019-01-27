@@ -38,9 +38,6 @@ display: inline;
 padding: 5px;
 color: white;
 }
-button#login{
-  color:#0d325a;
-}
 
 }
 .navbar:{
@@ -55,6 +52,14 @@ line-height: 48px;
 }
 .navbar-right > button#login{
   background-color: #0d325a;
+  color: white;
+  border: 1px solid #4e8cb6;
+  padding:10px 25px 10px;
+  border-radius: 5px;
+
+}
+.navbar-right > button#plan{
+  background-color: #7fb802;
   color: white;
   border: 1px solid #4e8cb6;
   padding:10px 25px 10px;
