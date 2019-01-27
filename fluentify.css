@@ -59,6 +59,7 @@ section.white{
   background-color: white;
   color: black;
 }
+
 .left, .center, .right{
   float: left;
   width: 33.3333%;
@@ -77,5 +78,22 @@ section.white{
   text-align: center;
 }
 .why-fluentify h3{
-  color: red;
+  color: #7fb802;
+}
+.half{
+  float: left;
+  width: 50%;
+  height: 392px;
+  text-align: center;
+}
+#best-2  img{
+  width: 300px;
+  text-align: center;
+}
+
+}
+#best-2::after{
+  clear: both;
+  content: "";
+  display: table;
 }
