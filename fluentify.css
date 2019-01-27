@@ -55,3 +55,23 @@ padding: 40px;
 .paragraph > p{
   margin-top: 10px;
 }
+section.white{
+  background-color: white;
+  color: black;
+}
+.left, .center, .right{
+  float: left;
+  width: 33.3333%;
+}
+.row::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.why-fluentify  img{
+  width: 200px;
+  height: 132px;
+}
+.why-fluentify h3{
+  color: red;
+}
