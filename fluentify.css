@@ -68,9 +68,13 @@ section.white{
   content: "";
   display: table;
 }
+.why-fluentify{
+  text-align: center;
+}
 .why-fluentify  img{
   width: 200px;
   height: 132px;
+  text-align: center;
 }
 .why-fluentify h3{
   color: red;
