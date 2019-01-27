@@ -115,7 +115,10 @@ section.white #text{
   width: 50%;
   height: 392px;
   text-align: center;
-  vertical-align: middle;
+
+}
+a{
+  color: blue;
 }
 #best-2  img{
   width: 300px;
