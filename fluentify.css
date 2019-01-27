@@ -128,7 +128,8 @@ section.white #text{
   content: "";
   display: table;
 }
-.half#text{
-  padding:60px;
+ #text > *{
+  padding:30px;
   text-align: left;
+
 }
