@@ -6,3 +6,21 @@ nav{
   height: 80px;
   background-color: #0d325a;
 }
+.container{
+  width: 70vw;
+  margin: auto;
+  border-left: 1px solid white;
+}
+.nav-left{
+  float: left;
+}
+.nav-right{
+  float: left;
+}
+nav > .box {
+  float: left;
+  width: 113px;
+  text-align: center;
+  line-height: 80px;
+  margin: 1px solid black;
+}
