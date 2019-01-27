@@ -18,9 +18,10 @@ nav{
   width: 60%;
 
 }
-.container > .nav-left{
-  float: left;
-  width: 60%;
+.container > .nav-right{
+  float: right;
+  width: 40%;
+  text-align: center;
 
 }
 
@@ -59,6 +60,10 @@ section.white{
   background-color: white;
   color: black;
 }
+section.white #text{
+  text-align: center;
+
+}
 
 .left, .center, .right{
   float: left;
@@ -85,6 +90,7 @@ section.white{
   width: 50%;
   height: 392px;
   text-align: center;
+  vertical-align: middle;
 }
 #best-2  img{
   width: 300px;
