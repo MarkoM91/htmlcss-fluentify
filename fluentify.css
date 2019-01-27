@@ -13,8 +13,7 @@ nav{
   margin: auto;
   border-left: 1px solid white;
   text-align: center;
-  line-height: 80px;
-}
+  }
 .container > .nav-left{
   float: left;
   width: 60%;
