@@ -21,13 +21,13 @@ nav{
 .container > .nav-left{
   float: left;
   width: 60%;
+  height: 100%;
 
 }
 .container > .nav-right{
   float: right;
   width: 40%;
-  text-align: center;
-  line-height: 80px;
+  height: 100%;
 }
 
 h2{
@@ -80,6 +80,7 @@ nav::after{
 text-align: center;
 background-color: #D0D0D0;
 padding: 40px;
+margin-bottom: 50px;
 }
 .paragraph > p{
   margin-top: 10px;
