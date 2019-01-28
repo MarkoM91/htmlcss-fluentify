@@ -6,6 +6,7 @@ nav{
   height: 80px;
   background-color: #0d325a;
   width: 100%;
+  line-height: 80px;
 }
 .container{
   width: 80vw;
@@ -67,6 +68,9 @@ line-height: 48px;
   margin-left: 5px;
 
 }
+.navbar-image{
+  display: inline-block;
+}
 nav::after{
   clear: both;
   content: "";
@@ -115,7 +119,6 @@ section.white #text{
   width: 50%;
   height: 392px;
   text-align: center;
-
 }
 a{
   color: blue;
