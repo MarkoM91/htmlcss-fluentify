@@ -6,15 +6,18 @@ nav{
   height: 80px;
   background-color: #0d325a;
   width: 100%;
+  text-align: center;
   line-height: 80px;
+}
+.navbar > *{
+  float: left;
 }
 .container{
   width: 80vw;
   height: 100%;
   margin: auto;
   border-left: 1px solid white;
-  text-align: center;
-}
+  }
 .container > .nav-left{
   float: left;
   width: 60%;
@@ -68,9 +71,6 @@ line-height: 48px;
   margin-left: 5px;
 
 }
-.navbar-image{
-  display: inline-block;
-}
 nav::after{
   clear: both;
   content: "";
@@ -119,6 +119,7 @@ section.white #text{
   width: 50%;
   height: 392px;
   text-align: center;
+
 }
 a{
   color: blue;
